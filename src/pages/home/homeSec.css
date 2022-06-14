@@ -1,0 +1,29 @@
+.section-txt {
+    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+/* .homeImg {
+    height: 300px;
+} */
+
+
+
+.red-bg {
+    background-color: red;
+    
+    height: 100%;
+}
+
+.white-txt {
+    color: white;
+}
+
+/* .img {
+    position: absolute;
+    float: left;
+} */

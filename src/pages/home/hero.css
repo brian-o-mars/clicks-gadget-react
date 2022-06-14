@@ -1,0 +1,23 @@
+.heroImg {
+    margin: auto !important;
+    width: 50%;
+}
+
+img {
+    margin: 0;
+}
+
+.small-txt {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.prod-link {
+    text-decoration: none; 
+    color: red;
+}
+
+.prod-link:hover {
+    font-weight: 600;
+    color: rgb(214, 11, 11);
+}

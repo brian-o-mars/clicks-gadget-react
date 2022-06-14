@@ -1,0 +1,12 @@
+.btn-prod-custom {
+    background-color: rgb(250, 6, 6) !important;
+    color: white !important; 
+    margin-left: auto;
+}
+
+.btn-prod-custom:hover {
+    background-color: white !important;
+    border: 3px solid rgb(243, 107, 107) !important;
+    font-weight: 600 !important;
+    color: rgb(243, 107, 107) !important;
+}
