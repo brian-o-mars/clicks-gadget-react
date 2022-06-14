@@ -80,7 +80,7 @@ function Products() {
 
   console.log(iphoneArr)
   console.log(samsungArr)
-
+  
   return (
     <div>
       <aside class="left-col text-center"><img src={clicksLogo} class = "banner" alt="Clicks gadget logo" width="200" 
