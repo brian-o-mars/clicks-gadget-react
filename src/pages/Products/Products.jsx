@@ -56,6 +56,7 @@ function Products() {
   const appleArr = []
   const gameArr = []
   const accessoriesArr = []
+  const nothingArr = []
 
 
   for (let i = 0; i < dataObj.length; i++) {
@@ -75,12 +76,14 @@ function Products() {
     case 'Accessories':
       accessoriesArr.push(dataObj[i])
       break;
+    default:
+      nothingArr.push(dataObj[i])
   }
 }
 
   console.log(iphoneArr)
   console.log(samsungArr)
-  
+
   return (
     <div>
       <aside class="left-col text-center"><img src={clicksLogo} class = "banner" alt="Clicks gadget logo" width="200" 

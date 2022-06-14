@@ -1,6 +1,5 @@
 import React from "react";
 import './product.css'
-import image from "../../assets/Images/products/iphone-12.jpg";
 import { Link } from 'react-router-dom';
 
 

@@ -36,7 +36,7 @@ const navbarHm = () => {
               >
                 {/* as={HashLink} to={"/products#games"} */}
                 <NavDropdown.Item
-                  as={Link}
+                  as={NavHashLink}
                   to={{
                     pathname: "/products",
                     hash: "#Iphones",
@@ -47,7 +47,7 @@ const navbarHm = () => {
                   Iphones
                 </NavDropdown.Item>
                 <NavDropdown.Item
-                  as={Link}
+                  as={NavHashLink}
                   to={{
                     pathname: "/products",
                     hash: "#Samsungs",
@@ -58,7 +58,7 @@ const navbarHm = () => {
                   Samsungs
                 </NavDropdown.Item>
                 <NavDropdown.Item
-                  as={Link}
+                  as={NavHashLink}
                   to={{
                     pathname: "/products",
                     hash: "#Laptops",
@@ -69,7 +69,7 @@ const navbarHm = () => {
                   Laptops
                 </NavDropdown.Item>
                 <NavDropdown.Item
-                  as={Link}
+                  as={NavHashLink}
                   to={{
                     pathname: "/products",
                     hash: "#games",
@@ -80,7 +80,7 @@ const navbarHm = () => {
                   Games
                 </NavDropdown.Item>
                 <NavDropdown.Item
-                  as={Link}
+                  as={NavHashLink}
                   to={{
                     pathname: "/products",
                     hash: "#Accessories",
@@ -107,6 +107,7 @@ const navbarHm = () => {
               <a
                 className="btn btn-custom rounded-pill btn-rounded float-end"
                 role="button"
+                href="null"
               >
                 07034722635
                 <span>

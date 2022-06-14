@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="col-12 col-md-8 pt-3 text-center text-md-end">
           <h3 className="footnoteTop">Clicks Gadget <span className="hub">HUB</span></h3>
           <p className="footnoteBottom text-md-end">Dealer in Phones, Laptops and other gadget Accessories</p>
-          <Link to="/contact"  ><a  className="btn btn-custom rounded-pill btn-rounded float-end" role="button">07034722635
+          <Link to="/contact"  ><a  className="btn btn-custom rounded-pill btn-rounded float-end" href='null' role="button">07034722635
             <span>
               <img src={telephone} alt="telephone icon" />
             </span></a></Link>
