@@ -1,3 +1,11 @@
+# Clicks gadget react
+
+An ecommerce website for a phone gadget store.
+
+The data for product list in the products page is pulled from an excel sheet so the business owner can simple update an excel sheet to make changes to their stoc
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
