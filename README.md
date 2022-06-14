@@ -1,4 +1,4 @@
-#Clicks gadget react
+# Clicks gadget react
 
 An ecommerce website for a phone gadget store.
 
